@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floreria</title>
+    <link rel="stylesheet" href="flores.css">
+</head>
+<body>
+    <div class="container">
+        <h1>F L O R E R I A  </h1>
+        <img src="/home/sandra/Documentos/lo" alt="">
+       
+        <form id="frmFlores">
+            <select id="selectTipo">
+                <option value="rosa">Rosa</option>
+                <option value="girasol">Girasol</option>
+                <option value="tulipan">Tulipán</option>
+                <option value="violeta">Violeta</option>
+            </select>
+            <button type="submit">Siguiente</button>
+        </form>
+        <h5></h5>
+    </div>
+    <script>window.location.href = `index2.html?tipo=${tipoSeleccionado}&tipoTexto=${encodeURIComponent(tipoTexto)}`;</script>
+</body>
+</html>
+
